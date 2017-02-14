@@ -276,7 +276,10 @@ about
 doctor team
 ***************************************/
 .thumbnail {
-	border-radius: 0px;
+	border: none;
+	/*border-radius: 10px;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	text-align: center;
 }
 .caption h3{
     padding-bottom: 5px;
@@ -466,7 +469,7 @@ footer
     background-color: #3498DB;
 }
 .top-footer {
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 .footer-line {
@@ -486,7 +489,13 @@ footer
     color: #0cb8b6;
     text-transform: none;
 }
-
+.footer-links {
+	color: inherit;
+}
+.footer-links:hover {
+	transition: 0.15s;
+	/*color: inherit;*/
+}
 /*profile css*/
 .media
  {
