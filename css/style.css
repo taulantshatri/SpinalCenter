@@ -69,11 +69,11 @@ banner
 }
 .navbar-default {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 0px 0;
     transition: all 0.3s;
 }
 .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
     border: 0px;
 }
 .navbar {
@@ -110,7 +110,7 @@ banner
 	display: block;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fff;
+    /*color: #fff;*/
     text-transform: uppercase;
     background-color: rgba(12, 184, 182, 0.21);
 }
