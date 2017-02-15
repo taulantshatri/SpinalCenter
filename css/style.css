@@ -1,4 +1,4 @@
-/*
+505050502020/*
     Theme Name: Medilab
     Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
     Author: BootstrapMade.com
@@ -51,7 +51,7 @@ h2 {
 hr.botm-line {
     height: 3px;
     width: 60px;
-    background: #ffb737;
+    background: #c01f2e;
     position: relative;
     border: 0;
     margin: 20px 0 20px 0;
@@ -78,6 +78,7 @@ banner
 }
 .navbar {
     border-radius: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .navbar-brand
@@ -97,7 +98,7 @@ banner
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
+    /*background: rgba(28,74,90, 0.9);*/
 }
 
 .white, .white:hover, .white:focus
@@ -112,20 +113,36 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     /*color: #fff;*/
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    /*background-color: rgba(12, 184, 182, 0.21);*/
+
+	background-color: #fafafa;
+	color: gray;
+
+	-webkit-box-shadow: inset 0px 7px 0px 0px #c01f2e;
+    -moz-box-shadow: inset 0px 7px 0px 0px #c01f2e;
+    box-shadow: inset 0px 7px 0px 0px #c01f2e;
+
+	transition: all	0.2s;
 }
 .navbar-default .navbar-nav > li > a
 {
-	color: #fff;
+	color: #778899;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
-	color: #fff;
+	color: #778899;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    /*background-color: rgba(12, 184, 182, 0.21);*/
+	/*background-color: #169ba2;*/
+
+	-webkit-box-shadow: inset 0px 7px 0px 0px #169ba2;
+    -moz-box-shadow: inset 0px 7px 0px 0px #169ba2;
+    box-shadow: inset 0px 7px 0px 0px #169ba2;
+
+	transition: all	0.2s;
 }
 .affix {
     background-color: #ffffff !important;
@@ -163,7 +180,8 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	/*background-color: rgba(12, 184, 182, 0.91);*/
+	background-color: #c01f2e;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -228,6 +246,7 @@ cta-1
 td {
     border: 0px solid #ededed;
     border-top: 1px solid rgba(216, 216, 216, 0.5);
+	border-bottom: 1px solid rgba(216, 216, 216, 0.5);
     padding: 6px 10px 6px 0;
 }
 .medi-info, .time-info{
