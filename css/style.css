@@ -540,8 +540,8 @@ footer
  }
  .dp
  {
-	 width: 191px;
-	 height: 191px;
+	 width: 186px;
+	 height: 186px;
      border:10px solid #eee;
      transition: all 0.2s ease-in-out;
 	 margin-bottom: 5px;
@@ -601,13 +601,13 @@ footer
 
 	.dp
     {
-   	 width: 150px;
-   	 height: 150px;
+   	 width: 113px;
+   	 height: 113px;
         border:10px solid #eee;
         transition: all 0.2s ease-in-out;
     }
 
-	.container {
-		padding: 0px 6px 0px 0px;
+	.navbar .container {
+		padding: 0px 0px 0px 0px;
 	}
 }
