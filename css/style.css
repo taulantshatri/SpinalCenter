@@ -101,6 +101,11 @@ banner
     /*background: rgba(28,74,90, 0.9);*/
 }
 
+.navbar.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+}
+
 .white, .white:hover, .white:focus
 {
 	color: #fff;
@@ -115,12 +120,12 @@ banner
     text-transform: uppercase;
     /*background-color: rgba(12, 184, 182, 0.21);*/
 
-	background-color: #fafafa;
+	background: linear-gradient(#fafafa,#fff);
 	color: gray;
 
-	-webkit-box-shadow: inset 0px 7px 0px 0px #c01f2e;
-    -moz-box-shadow: inset 0px 7px 0px 0px #c01f2e;
-    box-shadow: inset 0px 7px 0px 0px #c01f2e;
+	-webkit-box-shadow: inset 0px -7px 0px 0px #c01f2e;
+    -moz-box-shadow: inset 0px -7px 0px 0px #c01f2e;
+    box-shadow: inset 0px -7px 0px 0px #c01f2e;
 
 	transition: all	0.2s;
 }
@@ -138,9 +143,9 @@ banner
     /*background-color: rgba(12, 184, 182, 0.21);*/
 	/*background-color: #169ba2;*/
 
-	-webkit-box-shadow: inset 0px 7px 0px 0px #169ba2;
-    -moz-box-shadow: inset 0px 7px 0px 0px #169ba2;
-    box-shadow: inset 0px 7px 0px 0px #169ba2;
+	-webkit-box-shadow: inset 0px -7px 0px 0px #169ba2;
+    -moz-box-shadow: inset 0px -7px 0px 0px #169ba2;
+    box-shadow: inset 0px -7px 0px 0px #169ba2;
 
 	transition: all	0.2s;
 }
@@ -539,6 +544,7 @@ footer
 	 height: 191px;
      border:10px solid #eee;
      transition: all 0.2s ease-in-out;
+	 margin-bottom: 5px;
  }
  .dp:hover
  {
@@ -592,4 +598,16 @@ footer
     .banner-text h1{
         font-size: 24px;
     }
+
+	.dp
+    {
+   	 width: 150px;
+   	 height: 150px;
+        border:10px solid #eee;
+        transition: all 0.2s ease-in-out;
+    }
+
+	.container {
+		padding: 0px 6px 0px 0px;
+	}
 }
