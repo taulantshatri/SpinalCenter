@@ -1,4 +1,4 @@
-505050502020/*
+/*
     Theme Name: Medilab
     Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
     Author: BootstrapMade.com
@@ -558,20 +558,22 @@ footer
  /*end profile css*/
 
  /*BACK TO TOP BUTTON*/
- #scroll {
+#scroll {
 position:fixed;
 right:10px;
 bottom:10px;
-cursor:pointer;
+cursor: pointer;
 width:50px;
 height:50px;
-background-color:#3498db;
+background-color:#e74c3c;
 text-indent:-9999px;
 display:none;
 -webkit-border-radius:60px;
 -moz-border-radius:60px;
-border-radius:60px
+border-radius:60px;
+z-index: 999;
 }
+
 #scroll span {
 position:absolute;
 top:50%;
@@ -584,10 +586,22 @@ border:8px solid transparent;
 border-bottom-color:#ffffff
 }
 #scroll:hover {
-background-color:#e74c3c;
+background-color:#3498db;
 opacity:1;filter:"alpha(opacity=100)";
 -ms-filter:"alpha(opacity=100)";}
 /*END BACK TO TOP BUTTON*/
+
+/*contact css*/
+#form-messages {
+  font-weight: 400;
+}
+.success {
+  color: #477189;
+}
+.error {
+  color: #c12835;
+}
+/*end contact css*/
 
 @media (min-width: 551px) and (max-width: 980px){
 	.medi-info {
@@ -642,5 +656,5 @@ opacity:1;filter:"alpha(opacity=100)";
 	.navbar .container {
 		padding: 0px 0px 0px 0px;
 	}
-    
+
 }
