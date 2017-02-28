@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="src/css/swipebox.css">
+    
     <!-- =======================================================
         Theme Name: Medilab
         Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
@@ -28,9 +29,26 @@
 
         } )( jQuery );
     </script>
+
+	<script type='text/javascript'>
+	$(document).ready(function(){ 
+		$(window).scroll(function(){ 
+			if ($(this).scrollTop() > 100) { 
+				$('#scroll').fadeIn(); 
+			} else { 
+				$('#scroll').fadeOut(); 
+			} 
+		}); 
+		$('#scroll').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+	});
+	</script>
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   	<!--banner-->
+  	<a href="#" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 	<section id="banner" class="banner">
 		<div class="bg-color">
 			<nav class="navbar navbar-default navbar-fixed-top">
