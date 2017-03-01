@@ -21,10 +21,3 @@
         });
 
     })(jQuery);
-
-    /*gallery*/
-    ;( function( $ ) {
-
-        $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
