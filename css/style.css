@@ -38,7 +38,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .section-padding{
-	padding: 60px 0px;
+	padding: 80px 0px;
 
 }
 h2 {
@@ -306,6 +306,9 @@ doctor team
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 	text-align: center;
 }
+.thumbnail img {
+	width: 80%;
+}
 .caption h3{
     padding-bottom: 5px;
 }
@@ -541,8 +544,8 @@ footer
  }
  .dp
  {
-	 width: 186px;
-	 height: 186px;
+	 width: 139px;
+	 height: 139px;
      border:10px solid #eee;
      transition: all 0.2s ease-in-out;
 	 margin-bottom: 5px;
